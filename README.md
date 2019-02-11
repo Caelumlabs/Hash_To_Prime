@@ -29,7 +29,7 @@ Gen_Prime = "1.1.5"
 extern crate primes;
  
  
-# fn main() {
+
      let z:u128;
      println!("Introduce a hash");
      let mut a = String::new();
@@ -38,7 +38,7 @@ extern crate primes;
      z=primes::hash_to_prime(v);
      println!("{}", z);
 
-# } 
+ 
  
 ``` 
 Outputs:
@@ -86,7 +86,7 @@ extern crate primes;
 extern crate rand;
 use bigint::U512;
  
-# fn main() { 
+
      let mut mult:bigint::U512;
      mult=U512::one();
      loop{
@@ -112,7 +112,7 @@ use bigint::U512;
          }
      }
      println!("{}", mult);
-# }
+
  
 ``` 
  
